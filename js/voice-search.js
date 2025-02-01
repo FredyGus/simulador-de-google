@@ -37,6 +37,8 @@ const voiceRecognition = () =>{
     recognition.start();
 }
 
+// Hola nomas para probar el git
+
 document.querySelector('.form__microphone-icon').addEventListener("click",voiceSearchModalOpen);
 document.querySelector(".voice-search__close-modal").addEventListener("click",voiceSearchModalClose);
 document.querySelector(".voice-search__microphone-border").addEventListener("click",voiceRecognition)
